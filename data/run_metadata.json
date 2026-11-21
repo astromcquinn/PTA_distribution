@@ -1,0 +1,29 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "N_for_comparisons": [
+    10,
+    100,
+    1000,
+    10000
+  ],
+  "fourier_dt": 0.02,
+  "fourier_tmax": 160,
+  "error_grid": {
+    "x_min": -1.5,
+    "x_max": 2,
+    "samples": 101,
+    "N_min": 10,
+    "N_max": 100000,
+    "N_samples": 13
+  },
+  "models": [
+    "paper",
+    "sphere",
+    "gaussian",
+    "mixture"
+  ],
+  "source": "Analytic source models; deterministic Fourier inversion; no fitted or observational data."
+}
